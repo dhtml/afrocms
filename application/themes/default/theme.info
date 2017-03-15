@@ -1,0 +1,4 @@
+name = Default
+description = The default template for afrophp
+version = 1
+core = 1

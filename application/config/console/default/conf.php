@@ -1,0 +1,17 @@
+<?php return array (
+  0 => 'list',
+  1 => 'composer show',
+  2 => 'route:list',
+  3 => 'plugin:list',
+  4 => 'env:init',
+  5 => 'plugin:show base',
+  6 => 'exit',
+  7 => 'route:show --help',
+  8 => 'route:show toast',
+  9 => 'plugin:enable blog',
+  10 => 'plugin:disable blog',
+  11 => 'ftp:test',
+  12 => 'make:command help',
+  13 => 'make:command /help',
+  14 => 'make:command --help',
+);

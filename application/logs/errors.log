@@ -1,0 +1,2285 @@
+[12-Mar-2017 13:30:40 UTC] error: 
+Type: ErrorException
+Message: Undefined variable: _current
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php
+Line number: 225
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[12-Mar-2017 13:53:54 UTC] error: 
+Type: ErrorException
+Message: include(/Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/my_model.php): failed to open stream: No such file or directory
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php
+Line number: 201
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 201 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 201 
+Function: run 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[12-Mar-2017 14:00:14 UTC] error: 
+Type: ErrorException
+Message: Only variable references should be returned by reference
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php
+Line number: 272
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 272 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 196 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 558 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 494 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 463 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 428 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 219 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[12-Mar-2017 14:10:18 UTC] error: 
+Type: ErrorException
+Message: Cannot redeclare class System\Core\Router
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php
+Line number: 255
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[12-Mar-2017 14:11:06 UTC] error: 
+Type: ErrorException
+Message: Undefined variable: directory
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/common.php
+Line number: 63
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/common.php 
+Line: 63 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 209 
+Function: load_class 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[12-Mar-2017 14:13:44 UTC] error: 
+Type: ErrorException
+Message: Argument 1 passed to Smarty_Internal_Method_RegisterPlugin::registerPlugin() must be an instance of Smarty_Internal_TemplateBase, instance of Smarty_Internal_Data given
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/3rdparty/vendor/smarty/smarty/libs/sysplugins/smarty_internal_method_registerplugin.php
+Line number: 38
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/3rdparty/vendor/smarty/smarty/libs/sysplugins/smarty_internal_method_registerplugin.php 
+Line: 38 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/3rdparty/vendor/smarty/smarty/libs/sysplugins/smarty_internal_extension_handler.php 
+Line: 103 
+Function: call_user_func_array 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/3rdparty/vendor/smarty/smarty/libs/sysplugins/smarty_internal_data.php 
+Line: 283 
+Function: _callExternalMethod 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/base/bool/text.func.php 
+Line: 4 
+Function: __call 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/base/bool/text.func.php 
+Line: 4 
+Function: registerPlugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 551 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 504 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 473 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 438 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 212 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[12-Mar-2017 14:14:52 UTC] error: 
+Type: ErrorException
+Message: Argument 1 passed to Smarty_Internal_Method_RegisterPlugin::registerPlugin() must be an instance of Smarty_Internal_TemplateBase, instance of Smarty_Internal_Data given
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/3rdparty/vendor/smarty/smarty/libs/sysplugins/smarty_internal_method_registerplugin.php
+Line number: 38
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/3rdparty/vendor/smarty/smarty/libs/sysplugins/smarty_internal_method_registerplugin.php 
+Line: 38 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/3rdparty/vendor/smarty/smarty/libs/sysplugins/smarty_internal_extension_handler.php 
+Line: 103 
+Function: call_user_func_array 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/3rdparty/vendor/smarty/smarty/libs/sysplugins/smarty_internal_data.php 
+Line: 283 
+Function: _callExternalMethod 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/base/bool/text.func.php 
+Line: 4 
+Function: __call 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/base/bool/text.func.php 
+Line: 4 
+Function: registerPlugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 551 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 504 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 473 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 438 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 214 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[12-Mar-2017 19:02:06 UTC] error: 
+Type: ErrorException
+Message: Class 'System\Core\DHTMLPDO' not found
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php
+Line number: 232
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[12-Mar-2017 19:02:48 UTC] error: 
+Type: ErrorException
+Message: Class 'System\Core\DHTMLPDO' not found
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php
+Line number: 232
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[12-Mar-2017 19:55:34 UTC] error: 
+Type: ErrorException
+Message: Class 'Route' not found
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php
+Line number: 116
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[12-Mar-2017 21:02:52 UTC] error: 
+Type: ErrorException
+Message: Undefined property: System\Core\Loader::$lang
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php
+Line number: 513
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 513 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 474 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 443 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 408 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[12-Mar-2017 21:54:56 UTC] error: 
+Type: ErrorException
+Message: Undefined index: current
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/models/current_user_model.php
+Line number: 39
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/models/current_user_model.php 
+Line: 39 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 282 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 261 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 254 
+Function: model 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 596 
+Function: call_user_func_array 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 16 
+Function: __call 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 16 
+Function: models 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 538 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 474 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 443 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 408 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[12-Mar-2017 22:03:53 UTC] error: 
+Type: ErrorException
+Message: syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/models/user_model.php
+Line number: 59
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[14-Mar-2017 08:21:41 UTC] error: 
+Type: ErrorException
+Message: PDO::__construct(): send of 5 bytes failed with errno=32 Broken pipe
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 329
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 329 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1412 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 283 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:21:58 UTC] error: 
+Type: ErrorException
+Message: PDO::__construct(): send of 5 bytes failed with errno=32 Broken pipe
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 329
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 329 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1412 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 283 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:22:09 UTC] error: 
+Type: ErrorException
+Message: PDO::__construct(): send of 5 bytes failed with errno=32 Broken pipe
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 329
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 329 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1412 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 283 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:22:30 UTC] error: 
+Type: ErrorException
+Message: PDO::__construct(): send of 5 bytes failed with errno=32 Broken pipe
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 329
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 329 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1412 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 283 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:23:20 UTC] error: 
+Type: ErrorException
+Message: PDO::__construct(): send of 5 bytes failed with errno=32 Broken pipe
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 329
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 329 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1412 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 283 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:24:05 UTC] error: 
+Type: ErrorException
+Message: PDO::__construct(): send of 5 bytes failed with errno=32 Broken pipe
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 329
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 329 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1412 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 283 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:24:32 UTC] error: 
+Type: ErrorException
+Message: PDO::__construct(): send of 5 bytes failed with errno=32 Broken pipe
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 329
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 329 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1412 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 283 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:26:16 UTC] error: 
+Type: ErrorException
+Message: PDO::__construct(): send of 5 bytes failed with errno=32 Broken pipe
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 329
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 329 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1412 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 283 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:27:24 UTC] error: 
+Type: ErrorException
+Message: PDO::__construct(): send of 5 bytes failed with errno=32 Broken pipe
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 329
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 329 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1412 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 283 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:28:13 UTC] error: 
+Type: ErrorException
+Message: PDO::__construct(): send of 5 bytes failed with errno=32 Broken pipe
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 329
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 329 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1412 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 283 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:28:41 UTC] error: 
+Type: ErrorException
+Message: PDO::__construct(): send of 5 bytes failed with errno=32 Broken pipe
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 329
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 329 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1412 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 283 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:29:01 UTC] error: 
+Type: ErrorException
+Message: PDO::__construct(): send of 5 bytes failed with errno=32 Broken pipe
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 329
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 329 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1412 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 283 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:29:49 UTC] error: 
+Type: ErrorException
+Message: PDO::__construct(): send of 5 bytes failed with errno=32 Broken pipe
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 329
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 329 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1412 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 283 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:30:15 UTC] error: 
+Type: ErrorException
+Message: PDO::__construct(): send of 5 bytes failed with errno=32 Broken pipe
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 329
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 329 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1412 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 283 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:30:31 UTC] error: 
+Type: ErrorException
+Message: PDO::__construct(): send of 5 bytes failed with errno=32 Broken pipe
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 329
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 329 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1412 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 283 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:32:57 UTC] error: 
+Type: ErrorException
+Message: PDO::__construct(): send of 5 bytes failed with errno=32 Broken pipe
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 327
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 327 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1410 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 283 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:33:08 UTC] error: 
+Type: ErrorException
+Message: PDO::__construct(): send of 5 bytes failed with errno=32 Broken pipe
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 327
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 327 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1412 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 283 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:36:10 UTC] error: 
+Type: ErrorException
+Message: Call to a member function list_fields() on boolean
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 720
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[14-Mar-2017 08:40:35 UTC] error: 
+Type: ErrorException
+Message: Call to a member function list_fields() on boolean
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 720
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[14-Mar-2017 08:41:43 UTC] error: 
+Type: ErrorException
+Message: Call to a member function list_fields() on boolean
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 720
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[14-Mar-2017 08:42:47 UTC] error: 
+Type: ErrorException
+Message: Call to a member function list_fields() on boolean
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 720
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[14-Mar-2017 08:45:21 UTC] error: 
+Type: ErrorException
+Message: Call to a member function list_fields() on boolean
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 720
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[14-Mar-2017 08:56:57 UTC] error: 
+Type: ErrorException
+Message: Call to undefined method DHTMLPDO::num_rows
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 1779
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1779 
+Function: trigger_error 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 477 
+Function: __call 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 477 
+Function: num_rows 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/models/variables_model.php 
+Line: 46 
+Function: affected_rows 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 18 
+Function: set 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 08:59:32 UTC] error: 
+Type: ErrorException
+Message: Call to undefined method DHTMLPDO::reset
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 1779
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1779 
+Function: trigger_error 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/models/variables_model.php 
+Line: 39 
+Function: __call 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/models/variables_model.php 
+Line: 39 
+Function: reset 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 18 
+Function: set 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 09:00:09 UTC] error: 
+Type: ErrorException
+Message: Call to undefined method DHTMLPDO::num_rows
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 1779
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1779 
+Function: trigger_error 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 477 
+Function: __call 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 477 
+Function: num_rows 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/models/variables_model.php 
+Line: 47 
+Function: affected_rows 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/plugins/cms/plugin.php 
+Line: 18 
+Function: set 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 539 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 475 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 444 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 409 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/index.php 
+Line: 111 
+Function: run 
+
+[14-Mar-2017 13:29:50 UTC] error: 
+Type: ErrorException
+Message: Undefined property: DHTMLPDO::$on_error
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 335
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 335 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1763 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 335 
+Function: __get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1411 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 289 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 545 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 481 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 450 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 416 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 110 
+Function: run 
+
+[14-Mar-2017 13:32:59 UTC] error: 
+Type: ErrorException
+Message: call_user_func() expects parameter 1 to be a valid callback, array must have exactly two members
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 335
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 335 
+Function: call_user_func 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1411 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 289 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 545 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 481 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 450 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 416 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 110 
+Function: run 
+
+[14-Mar-2017 13:33:10 UTC] error: 
+Type: ErrorException
+Message: call_user_func() expects parameter 1 to be a valid callback, class 'Closure' does not have a method ''
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 335
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 335 
+Function: call_user_func 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1411 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 289 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 545 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 481 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 450 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 416 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 110 
+Function: run 
+
+[14-Mar-2017 13:33:50 UTC] error: 
+Type: ErrorException
+Message: call_user_func() expects parameter 1 to be a valid callback, second array member is not a valid method
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 335
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 335 
+Function: call_user_func 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1411 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 289 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 545 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 481 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 450 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 416 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 110 
+Function: run 
+
+[14-Mar-2017 13:35:30 UTC] error: 
+Type: ErrorException
+Message: Cannot use object of type Closure as array
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 335
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[14-Mar-2017 15:25:47 UTC] error: 
+Type: ErrorException
+Message: Use of undefined constant version - assumed 'version'
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/views/setup/setup_html.php
+Line number: 295
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/views/setup/setup_html.php 
+Line: 295 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 116 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 314 
+Function: load_file 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 245 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 335 
+Function: call_user_func_array 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1411 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 299 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 555 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 491 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 460 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 426 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 110 
+Function: run 
+
+[14-Mar-2017 15:25:47 UTC] error: 
+Type: ErrorException
+Message: Use of undefined constant version - assumed 'version'
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/views/setup/setup_html.php
+Line number: 295
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/views/setup/setup_html.php 
+Line: 295 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 116 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 314 
+Function: load_file 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 245 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 335 
+Function: call_user_func_array 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 179 
+Function: connect 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1411 
+Function: query 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 158 
+Function: table_exists 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 398 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 116 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php 
+Line: 82 
+Function: create 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 299 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 206 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/plugin.php 
+Line: 5 
+Function: library 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 555 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 491 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 460 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 426 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 211 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 110 
+Function: run 
+
+[14-Mar-2017 21:44:25 UTC] error: 
+Type: ErrorException
+Message: syntax error, unexpected end of file
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/views/setup/setup_html.php
+Line number: 120
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[14-Mar-2017 21:45:14 UTC] error: 
+Type: ErrorException
+Message: syntax error, unexpected end of file
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/views/setup/setup_html.php
+Line number: 76
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[14-Mar-2017 22:07:26 UTC] error: 
+Type: ErrorException
+Message: syntax error, unexpected 'id' (T_STRING)
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/models/user_model.php
+Line number: 42
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[14-Mar-2017 22:08:13 UTC] error: 
+Type: ErrorException
+Message: You cannot pass an empty array to DHTMLPDO::insert_bulk
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php
+Line number: 1604
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1604 
+Function: trigger_error 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/dhtmlpdo.php 
+Line: 1552 
+Function: insert_bulk 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 100 
+Function: insert_json_string 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/models/user_model.php 
+Line: 48 
+Function: insert_json_string 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 159 
+Function: create_schema 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php 
+Line: 57 
+Function: setup_table 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/models/user_model.php 
+Line: 10 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 309 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 288 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 281 
+Function: model 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 623 
+Function: call_user_func_array 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/plugin.php 
+Line: 16 
+Function: __call 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/plugin.php 
+Line: 16 
+Function: models 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 565 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 501 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 470 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 436 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 214 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 110 
+Function: run 
+
+[14-Mar-2017 22:15:40 UTC] error: 
+Type: ErrorException
+Message: Call to undefined function System\Core\config_get()
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/security.php
+Line number: 134
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[14-Mar-2017 22:31:03 UTC] error: 
+Type: ErrorException
+Message: syntax error, unexpected ';', expecting ')'
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/models/user_model.php
+Line number: 46
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[14-Mar-2017 22:56:24 UTC] error: 
+Type: ErrorException
+Message: syntax error, unexpected 'Guest' (T_STRING)
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/models/role_model.php
+Line number: 27
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[14-Mar-2017 22:57:48 UTC] error: 
+Type: ErrorException
+Message: syntax error, unexpected 'Guest' (T_STRING)
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/models/role_model.php
+Line number: 28
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[14-Mar-2017 22:57:51 UTC] error: 
+Type: ErrorException
+Message: syntax error, unexpected 'Guest' (T_STRING)
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/models/role_model.php
+Line number: 28
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[14-Mar-2017 23:09:11 UTC] error: 
+Type: ErrorException
+Message: Cannot redeclare class Role_model
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/models/user_role.php
+Line number: 32
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[14-Mar-2017 23:09:25 UTC] error: 
+Type: ErrorException
+Message: Cannot redeclare class User_model
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/models/user_model.php
+Line number: 66
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[15-Mar-2017 15:05:10 UTC] error: 
+Type: ErrorException
+Message: Class 'DHTMLPDO' not found
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php
+Line number: 238
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[15-Mar-2017 15:06:19 UTC] error: 
+Type: ErrorException
+Message: Class 'System\Core\System\Base\DHTMLPDO' not found
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php
+Line number: 237
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[15-Mar-2017 15:06:47 UTC] error: 
+Type: ErrorException
+Message: Class 'System\Base\PDO' not found
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php
+Line number: 326
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[15-Mar-2017 15:07:56 UTC] error: 
+Type: ErrorException
+Message: syntax error, unexpected '\' (T_NS_SEPARATOR), expecting identifier (T_STRING)
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php
+Line number: 678
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[15-Mar-2017 15:08:32 UTC] error: 
+Type: ErrorException
+Message: syntax error, unexpected '\' (T_NS_SEPARATOR), expecting identifier (T_STRING)
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php
+Line number: 1440
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[15-Mar-2017 15:09:01 UTC] error: 
+Type: ErrorException
+Message: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'afrocms'' in /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php:334
+Stack trace:
+#0 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php(334): PDO->__construct('mysql:host=loca...', 'admin', 'pass', Array)
+#1 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php(181): System\Base\DHTMLPDO->connect()
+#2 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php(1418): System\Base\DHTMLPDO->query('select 1 from {...', Array, true)
+#3 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php(159): System\Base\DHTMLPDO->table_exists('{session}')
+#4 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php(57): Model->setup_table()
+#5 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php(398): Model->__construct()
+#6 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php(116): dbase_session_handler->__construct()
+#7 /Users/d
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php
+Line number: 334
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[15-Mar-2017 15:09:36 UTC] error: 
+Type: ErrorException
+Message: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'afro'' in /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php:334
+Stack trace:
+#0 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php(334): PDO->__construct('mysql:host=loca...', 'admin', 'pass', Array)
+#1 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php(181): System\Base\DHTMLPDO->connect()
+#2 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php(1418): System\Base\DHTMLPDO->query('select 1 from {...', Array, true)
+#3 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php(159): System\Base\DHTMLPDO->table_exists('{session}')
+#4 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php(57): Model->setup_table()
+#5 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php(398): Model->__construct()
+#6 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php(116): dbase_session_handler->__construct()
+#7 /Users/dhtm
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php
+Line number: 334
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[15-Mar-2017 15:09:58 UTC] error: 
+Type: ErrorException
+Message: Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'afro'' in /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php:334
+Stack trace:
+#0 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php(334): PDO->__construct('mysql:host=loca...', 'admin', 'pass', Array)
+#1 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php(181): System\Base\DHTMLPDO->connect()
+#2 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php(1418): System\Base\DHTMLPDO->query('select 1 from {...', Array, true)
+#3 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php(159): System\Base\DHTMLPDO->table_exists('{session}')
+#4 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/model.php(57): Model->setup_table()
+#5 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php(398): Model->__construct()
+#6 /Users/dhtml/Sites/www/afrophp.com/sandbox/system/libraries/session.php(116): dbase_session_handler->__construct()
+#7 /Users/dhtm
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php
+Line number: 334
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[15-Mar-2017 15:11:22 UTC] error: 
+Type: ErrorException
+Message: Class 'DHTMLPDO' not found
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/setup.inc.php
+Line number: 12
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[15-Mar-2017 15:26:27 UTC] error: 
+Type: ErrorException
+Message: Class 'System\Core\Smarty' not found
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Line number: 14
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[15-Mar-2017 15:27:10 UTC] error: 
+Type: ErrorException
+Message: Class 'menu' not found
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/plugin.php
+Line number: 41
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[15-Mar-2017 15:33:55 UTC] error: 
+Type: ErrorException
+Message: The use statement with non-compound name 'Smarty' has no effect
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Line number: 8
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 201 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 201 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 110 
+Function: run 
+
+[15-Mar-2017 15:34:14 UTC] error: 
+Type: ErrorException
+Message: The use statement with non-compound name 'Smarty' has no effect
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Line number: 8
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 201 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 201 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 110 
+Function: run 
+
+[15-Mar-2017 15:34:22 UTC] error: 
+Type: ErrorException
+Message: The use statement with non-compound name 'Smarty' has no effect
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Line number: 8
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 201 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 201 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 110 
+Function: run 
+
+[15-Mar-2017 15:34:37 UTC] error: 
+Type: ErrorException
+Message: The use statement with non-compound name 'Smarty' has no effect
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Line number: 8
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 201 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 201 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 110 
+Function: run 
+
+[15-Mar-2017 15:34:44 UTC] error: 
+Type: ErrorException
+Message: Class 'Smarty\Smarty' not found
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Line number: 13
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[15-Mar-2017 17:43:02 UTC] error: 
+Type: ErrorException
+Message: Use of undefined constant cli - assumed 'cli'
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php
+Line number: 129
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 129 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 185 
+Function: bootstrap 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 110 
+Function: run 
+

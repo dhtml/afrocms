@@ -1,0 +1,21 @@
+Options +FollowSymLinks
+
+<FilesMatch "\.(xml|conf|info|ini|txt|inf|inc)$">
+ Order allow,deny
+</FilesMatch>
+
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+ order allow,deny
+ deny from all
+ satisfy all
+</Files>
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule (.*) index.php
+</IfModule>
