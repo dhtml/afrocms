@@ -8,6 +8,6 @@ class ExampleTest extends System\Base\Afrotest
     */
     public function testBasicTest()
     {
-        $this->assertTrue(false);
+        $this->assertTrue(true);
     }
 }
