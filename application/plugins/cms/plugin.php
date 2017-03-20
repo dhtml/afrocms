@@ -2,21 +2,34 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 //load session
-$this->load->library("session");
+$this->load->library(BASEPATH."libraries/session.php");
 
-//include __DIR__."/models/user_model.php";
-//include __DIR__."/models/feed_model.php";
+
 $this->load->models(
   array(
+    /*load all available roles*/
     __DIR__."/models/role_model.php",
+
+    /*manage role of userss*/
     __DIR__."/models/user_role.php",
+
+    /*manage registered users*/
     __DIR__."/models/user_model.php",
+
+    /*manage current user*/
     'user'=>__DIR__."/models/current_user_model.php",
+
+    /*manage cms variables*/
     'variable'=>__DIR__."/models/variables_model.php",
+
+
+    /*manage feed models*/
     __DIR__."/models/feed_model.php"
   )
 );
 
+
+//$this->user->authorize(1);
 
 //$this->variable->del('name');
 //writeln($this->variable->get('name'));
@@ -24,7 +37,7 @@ $this->load->models(
 //$this->variable->set('name','Tony');
 //stdout($_SESSION);
 
-writeln($this->user->id);
+//writeln($this->user->username);
 
 //$this->user->authorize(1);
 
@@ -141,3 +154,12 @@ $this->router->addRoute(new Route(array(
       'controller'=>'CMS',
       'method'=>'pages'
     )));
+
+
+
+    $this->router->addRoute(new Route(array(
+          'view'=>'form',
+          'uri'=>'form',
+          'controller'=>'FormCtrl',
+          'method'=>'index'
+        )));

@@ -6,7 +6,7 @@ class User_model extends model
 
     public function __construct()
     {
-      $this->db->drop("$this->table");
+      //$this->db->drop("$this->table");
       parent::__construct();
     }
 

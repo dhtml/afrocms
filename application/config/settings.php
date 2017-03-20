@@ -10,6 +10,6 @@
     'site_name' => 'AFROPHP CMS',
     'admin_username' => 'dhtml',
     'admin_email' => 'diltony@yahoo.com',
-    'admin_password' => 'lagos12',
+    'admin_password' => 'lagos',
   ),
 );

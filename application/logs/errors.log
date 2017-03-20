@@ -2283,3 +2283,2293 @@ File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php
 Line: 110 
 Function: run 
 
+[17-Mar-2017 14:10:00 UTC] error: 
+Type: ErrorException
+Message: Undefined variable: uid
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/models/current_user_model.php
+Line number: 47
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/models/current_user_model.php 
+Line: 47 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 308 
+Function: newInstanceArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 287 
+Function: instantiate 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 280 
+Function: model 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 622 
+Function: call_user_func_array 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/plugin.php 
+Line: 18 
+Function: __call 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/plugin.php 
+Line: 18 
+Function: models 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 564 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 500 
+Function: plugin_init 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 469 
+Function: plugin 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 435 
+Function: parse_plugins 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 216 
+Function: plugins 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 110 
+Function: run 
+
+[17-Mar-2017 14:44:19 UTC] error: 
+Type: ErrorException
+Message: syntax error, unexpected '}'
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php
+Line number: 257
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 102 
+Function: exception_error_handler 
+
+[17-Mar-2017 14:59:47 UTC] error: 
+Type: ErrorException
+Message: Use of undefined constant time_start - assumed 'time_start'
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php
+Line number: 133
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 133 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 226 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 110 
+Function: run 
+
+[17-Mar-2017 17:26:11 UTC] error: 
+Type: ErrorException
+Message: touch(): Utime failed: Permission denied
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php
+Line number: 198
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php 
+Line: 198 
+Function: touch 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php 
+Line: 100 
+Function: compileTemplateSource 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php 
+Line: 163 
+Function: process 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php 
+Line: 206 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php 
+Line: 216 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php 
+Line: 107 
+Function: _execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 446 
+Function: fetch 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 270 
+Function: fetch 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 177 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 226 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[17-Mar-2017 17:26:18 UTC] error: 
+Type: ErrorException
+Message: touch(): Utime failed: Permission denied
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php
+Line number: 198
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php 
+Line: 198 
+Function: touch 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php 
+Line: 100 
+Function: compileTemplateSource 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php 
+Line: 163 
+Function: process 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php 
+Line: 206 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php 
+Line: 216 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php 
+Line: 107 
+Function: _execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 446 
+Function: fetch 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 270 
+Function: fetch 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 177 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 226 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[17-Mar-2017 17:26:47 UTC] error: 
+Type: ErrorException
+Message: touch(): Utime failed: Permission denied
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php
+Line number: 198
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php 
+Line: 198 
+Function: touch 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php 
+Line: 100 
+Function: compileTemplateSource 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php 
+Line: 163 
+Function: process 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php 
+Line: 206 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php 
+Line: 216 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php 
+Line: 107 
+Function: _execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 446 
+Function: fetch 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 270 
+Function: fetch 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 177 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 226 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[17-Mar-2017 17:36:56 UTC] error: 
+Type: ErrorException
+Message: Call to undefined function addSscript()
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/users/controllers/Users.php
+Line number: 16
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 19:29:27 UTC] error: 
+Type: ErrorException
+Message: Uncaught  --> Smarty Compiler: Syntax error in template "file:/Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/users/views/login.html"  on line 91 "<p id="backtoblog"><a href="{base_url}">← Back to {site_name}</a></p>" unknown tag "site_name" <-- 
+  thrown
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php
+Line number: 91
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 19:30:19 UTC] error: 
+Type: ErrorException
+Message: Uncaught  --> Smarty Compiler: Syntax error in template "file:/Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/users/views/login.html"  on line 91 "<p id="backtoblog"><a href="{base_url}">← Back to {site_name}</a></p>" unknown tag "site_name" <-- 
+  thrown
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php
+Line number: 91
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 19:31:06 UTC] error: 
+Type: ErrorException
+Message: Uncaught  --> Smarty Compiler: Syntax error in template "file:/Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/users/views/login.html"  on line 91 "<p id="backtoblog"><a href="{base_url}">← Back to {site_name}</a></p>" unknown tag "site_name" <-- 
+  thrown
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php
+Line number: 91
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 19:31:41 UTC] error: 
+Type: ErrorException
+Message: Uncaught  --> Smarty Compiler: Syntax error in template "file:/Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/users/views/login.html"  on line 92 "{site_name}" unknown tag "site_name" <-- 
+  thrown
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php
+Line number: 92
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 19:35:34 UTC] error: 
+Type: ErrorException
+Message: Uncaught  --> Smarty Compiler: Syntax error in template "file:/Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/users/views/login.html"  on line 91 "<p id="backtoblog"><a href="{base_url}">← Back to {site_name}</a>" unknown tag "site_name" <-- 
+  thrown
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php
+Line number: 91
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 19:35:43 UTC] error: 
+Type: ErrorException
+Message: Uncaught  --> Smarty Compiler: Syntax error in template "file:/Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/users/views/login.html"  on line 91 "<p id="backtoblog"><a href="{base_url}">← Back to {site_title}</a>" unknown tag "site_title" <-- 
+  thrown
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php
+Line number: 91
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 19:36:30 UTC] error: 
+Type: ErrorException
+Message: Uncaught  --> Smarty Compiler: Syntax error in template "file:/Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/users/views/login.html"  on line 91 "<p id="backtoblog"><a href="{base_url}">← Back to {site_title}</a>" unknown tag "site_title" <-- 
+  thrown
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php
+Line number: 91
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 19:36:50 UTC] error: 
+Type: ErrorException
+Message: Uncaught  --> Smarty Compiler: Syntax error in template "file:/Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/users/views/login.html"  on line 91 "<p id="backtoblog"><a href="{base_url}">← Back to {site_title}</a>" unknown tag "site_title" <-- 
+  thrown
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php
+Line number: 91
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 19:37:11 UTC] error: 
+Type: ErrorException
+Message: Uncaught  --> Smarty Compiler: Syntax error in template "file:/Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/users/views/login.html"  on line 91 "<p id="backtoblog"><a href="{base_url}">← Back to {site_title}</a>" unknown tag "site_title" <-- 
+  thrown
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php
+Line number: 91
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 19:37:29 UTC] error: 
+Type: ErrorException
+Message: Uncaught  --> Smarty Compiler: Syntax error in template "file:/Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/users/views/login.html"  on line 91 "<p id="backtoblog"><a href="{base_url}">← Back to {site_title}</a>" unknown tag "site_title" <-- 
+  thrown
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php
+Line number: 91
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 19:38:06 UTC] error: 
+Type: ErrorException
+Message: Uncaught  --> Smarty Compiler: Syntax error in template "file:/Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/users/views/login.html"  on line 91 "<p id="backtoblog"><a href="{base_url}">← Back to {asset_url2}</a>" unknown tag "asset_url2" <-- 
+  thrown
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php
+Line number: 91
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 19:48:24 UTC] error: 
+Type: ErrorException
+Message: syntax error, unexpected 'else' (T_ELSE)
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Line number: 574
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 19:48:35 UTC] error: 
+Type: ErrorException
+Message: syntax error, unexpected ','
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Line number: 574
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 19:49:32 UTC] error: 
+Type: ErrorException
+Message: syntax error, unexpected ','
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Line number: 575
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 19:50:23 UTC] error: 
+Type: ErrorException
+Message: Cannot access parent:: when current class scope has no parent
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Line number: 463
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 19:52:55 UTC] error: 
+Type: ErrorException
+Message: Uncaught  --> Smarty Compiler: Syntax error in template "file:/Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/users/views/login.html"  on line 91 "<p id="backtoblog"><a href="{base_url}">← Back to {site_name} {site_title}</a>" unknown tag "site_title" <-- 
+  thrown
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php
+Line number: 91
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 19:53:14 UTC] error: 
+Type: ErrorException
+Message: Uncaught  --> Smarty Compiler: Syntax error in template "file:/Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/users/views/login.html"  on line 91 "<p id="backtoblog"><a href="{base_url}">← Back to {site_name} {site_title}</a>" unknown tag "site_title" <-- 
+  thrown
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatecompilerbase.php
+Line number: 91
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 20:06:47 UTC] error: 
+Type: ErrorException
+Message: Undefined index: site_title
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/templates_c/7778f5859c015a4b129dde069feee6ff28c8f674_0.file.login.html.php
+Line number: 118
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/templates_c/7778f5859c015a4b129dde069feee6ff28c8f674_0.file.login.html.php 
+Line: 118 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php 
+Line: 128 
+Function: content_58cc41949a4c32_14748292 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php 
+Line: 172 
+Function: getRenderedTemplateCode 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php 
+Line: 206 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php 
+Line: 216 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php 
+Line: 107 
+Function: _execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 462 
+Function: fetch 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 264 
+Function: fetch 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 177 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 226 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[17-Mar-2017 22:31:57 UTC] error: 
+Type: ErrorException
+Message: Call to undefined function setTitle()
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/controllers/Datagrid.php
+Line number: 21
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 22:43:27 UTC] error: 
+Type: ErrorException
+Message: Using $this when not in object context
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/common.php
+Line number: 1562
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 22:43:43 UTC] error: 
+Type: ErrorException
+Message: Using $this when not in object context
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/common.php
+Line number: 1485
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 22:43:50 UTC] error: 
+Type: ErrorException
+Message: Using $this when not in object context
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/common.php
+Line number: 1485
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 22:44:08 UTC] error: 
+Type: ErrorException
+Message: Call to a member function list_fields() on boolean
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/DHTMLPDO.php
+Line number: 728
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 23:36:06 UTC] error: 
+Type: ErrorException
+Message: Class 'System\Base\Theme' not found
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/Prototype.php
+Line number: 42
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 23:36:21 UTC] error: 
+Type: ErrorException
+Message: Class 'System\Base\theme' not found
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/Prototype.php
+Line number: 42
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[17-Mar-2017 23:37:02 UTC] error: 
+Type: ErrorException
+Message: Class 'System\Base\theme' not found
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/Prototype.php
+Line number: 42
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[18-Mar-2017 00:15:07 UTC] error: 
+Type: ErrorException
+Message: Undefined variable: page_content
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Line number: 274
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 274 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 177 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 00:16:19 UTC] error: 
+Type: ErrorException
+Message: Uncaught  --> Smarty: Unable to load template 'file:side_profile.html' in '/Users/dhtml/Sites/www/afrocms.com/sandbox/application/themes/gentele/templates/default/template.html' <-- 
+  thrown
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php
+Line number: 185
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[18-Mar-2017 00:17:27 UTC] error: 
+Type: ErrorException
+Message: Uncaught  --> Smarty: Unable to load template 'file:side_profile.html' in '/Users/dhtml/Sites/www/afrocms.com/sandbox/application/themes/gentele/templates/default/template.html' <-- 
+  thrown
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php
+Line number: 185
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[18-Mar-2017 00:17:45 UTC] error: 
+Type: ErrorException
+Message: Uncaught  --> Smarty: Unable to load template 'file:side_profile.html' in '/Users/dhtml/Sites/www/afrocms.com/sandbox/application/themes/gentele/templates/default/template.html' <-- 
+  thrown
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php
+Line number: 185
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[18-Mar-2017 00:17:57 UTC] error: 
+Type: ErrorException
+Message: Uncaught  --> Smarty: Unable to load template 'file:side_profile.html' in '/Users/dhtml/Sites/www/afrocms.com/sandbox/application/themes/gentele/templates/default/template.html' <-- 
+  thrown
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php
+Line number: 185
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[18-Mar-2017 07:24:49 UTC] error: 
+Type: ErrorException
+Message: array_merge(): Argument #2 is not an array
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php
+Line number: 334
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 334 
+Function: array_merge 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/controllers/Datagrid.php 
+Line: 11 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 07:26:51 UTC] error: 
+Type: ErrorException
+Message: array_merge(): Argument #2 is not an array
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php
+Line number: 334
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 334 
+Function: array_merge 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/controllers/Datagrid.php 
+Line: 11 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 09:10:59 UTC] error: 
+Type: ErrorException
+Message: Undefined index: langfile
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/views/select.php
+Line number: 5
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/views/select.php 
+Line: 5 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 116 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 336 
+Function: load_file 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/controllers/Datagrid.php 
+Line: 11 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 09:32:59 UTC] error: 
+Type: ErrorException
+Message: file_get_contents(---Select Language File--): failed to open stream: No such file or directory
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/views/select.php
+Line number: 9
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/views/select.php 
+Line: 9 
+Function: file_get_contents 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 116 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 336 
+Function: load_file 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/controllers/Datagrid.php 
+Line: 11 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 10:14:05 UTC] error: 
+Type: ErrorException
+Message: file_put_contents(/Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/views/post.txt): failed to open stream: Permission denied
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/views/select.php
+Line number: 8
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/views/select.php 
+Line: 8 
+Function: file_put_contents 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 116 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 336 
+Function: load_file 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/controllers/Datagrid.php 
+Line: 11 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 10:14:24 UTC] error: 
+Type: ErrorException
+Message: file_put_contents(a:10:{s:8:&quot;langfile&quot;;s:93:&quot;/Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/languages/en/user.xml&quot;;s:19:&quot;tblAppendGrid_Key_1&quot;;s:7:&quot;back_to&quot;;s:30:&quot;tblAppendGrid_AdtDescription_1&quot;;s:7:&quot;Back to&quot;;s:19:&quot;tblAppendGrid_Key_2&quot;;s:5:&quot;login&quot;;s:30:&quot;tblAppendGrid_AdtDescription_2&quot;;s:6:&quot;Log In&quot;;s:19:&quot;tblAppendGrid_Key_3&quot;;s:8:&quot;register&quot;;s:30:&quot;tblAppendGrid_AdtDescription_3&quot;;s:8:&quot;Register&quot;;s:19:&quot;tblAppendGrid_Key_4&quot;;s:14:&quot;my-markup-test&quot;;s:30:&quot;tblAppendGrid_AdtDescription_4&quot;;s:1027:&quot;DISARMAMENT PROCESS YIELDS MORE RESULTS In ZAMFARA STATE
+
+The disarmament of armed bandits, cattle rustlers and vigilante process spearheaded by Zamfara State and 1 Division Nigerian Army has been yielding the desired result as more persons have been surrendering themselves, arms and ammunition. This assertion followed the surrender of more arms at Gusau, Maru and Anka Local Government Areas of the State yesterday. 
+
+Thus the number of the recovered arms within this week is as follows; 3AK-47 Rifles, 2 G3 Rifles, 1 Small Machine Gun, 3 Pump Action Guns, 1 Teargas Launcher, 3 Teargas Canisters, 690 Locally Made Dane Guns, 192 Locally Made Pistols, 8 Locally made Pump Action Guns, 17 Locally Made Revolvers, 60 Locally MadeMulti-barrel Pistols and 13 Locally Made Double-barrel Rifles. 
+
+The State Government and the military have been working assiduously with all the relevant stakeholders to ensure the sustenance of the peace process.
+
+Kindly disseminate this information to the public through your medium. 
+&quot;;s:22:&quot;tblAppendGrid_rowOrder&quot;;s:7:&quot;1,2,3,4&quot;;}): failed to open stream: Invalid argument
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/views/select.php
+Line number: 8
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/views/select.php 
+Line: 8 
+Function: file_put_contents 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 116 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 336 
+Function: load_file 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/controllers/Datagrid.php 
+Line: 11 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 10:14:59 UTC] error: 
+Type: ErrorException
+Message: file_put_contents(/Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/views/post.txt): failed to open stream: Permission denied
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/views/select.php
+Line number: 8
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/views/select.php 
+Line: 8 
+Function: file_put_contents 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 116 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 336 
+Function: load_file 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/controllers/Datagrid.php 
+Line: 11 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 10:41:48 UTC] error: 
+Type: ErrorException
+Message: Header may not contain more than a single header, new line detected
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/common.php
+Line number: 376
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/common.php 
+Line: 376 
+Function: header 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/views/select.php 
+Line: 47 
+Function: dhtmlconsole 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 116 
+Function: include 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 336 
+Function: load_file 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/controllers/Datagrid.php 
+Line: 11 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 16:24:03 UTC] error: 
+Type: ErrorException
+Message: Invalid argument supplied for foreach()
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 62
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 62 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 45 
+Function: process 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 8 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 16:25:28 UTC] error: 
+Type: ErrorException
+Message: Invalid argument supplied for foreach()
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 62
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 62 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 45 
+Function: process 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 9 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 16:43:46 UTC] error: 
+Type: ErrorException
+Message: Invalid argument supplied for foreach()
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 64
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 64 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 47 
+Function: process 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 16 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 16:49:33 UTC] error: 
+Type: ErrorException
+Message: Missing argument 2 for form1()
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php
+Line number: 25
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 25 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 13 
+Function: call_user_func 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 15 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 17:13:34 UTC] error: 
+Type: ErrorException
+Message: Cannot use object of type System\Core\form_object as array
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 37
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[18-Mar-2017 17:13:42 UTC] error: 
+Type: ErrorException
+Message: Cannot use object of type System\Core\form_object as array
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 37
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[18-Mar-2017 17:43:01 UTC] error: 
+Type: ErrorException
+Message: Undefined index: #value
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 105
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 105 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 204 
+Function: process 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 179 
+Function: process_element 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 204 
+Function: process 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 179 
+Function: process_element 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 84 
+Function: process 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 15 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 18:33:22 UTC] error: 
+Type: ErrorException
+Message: Undefined index: value
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 109
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 109 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 226 
+Function: process 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 201 
+Function: process_element 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 226 
+Function: process 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 201 
+Function: process_element 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 84 
+Function: process 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 17 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 18:34:14 UTC] error: 
+Type: ErrorException
+Message: Undefined index: value
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 121
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 121 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 226 
+Function: process 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 201 
+Function: process_element 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 226 
+Function: process 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 201 
+Function: process_element 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 84 
+Function: process 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 17 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 19:12:53 UTC] error: 
+Type: ErrorException
+Message: Directory /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer not writable, please chmod to 777
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer.php
+Line number: 293
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer.php 
+Line: 293 
+Function: trigger_error 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer.php 
+Line: 233 
+Function: _testPermissions 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer.php 
+Line: 125 
+Function: _prepareDir 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Decorator.php 
+Line: 108 
+Function: cleanup 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Decorator/Cleanup.php 
+Line: 72 
+Function: cleanup 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Config.php 
+Line: 505 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Config.php 
+Line: 415 
+Function: getDefinition 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Generator.php 
+Line: 74 
+Function: getHTMLDefinition 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier.php 
+Line: 158 
+Function: __construct 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 24 
+Function: purify 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 19:16:33 UTC] error: 
+Type: ErrorException
+Message: Using deprecated API: use $config->set('Core.Encoding', ...) instead invoked on line 327 in file /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Config.php
+Line number: 901
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Config.php 
+Line: 901 
+Function: trigger_error 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Config.php 
+Line: 303 
+Function: triggerError 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 327 
+Function: set 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 302 
+Function: render_output 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 178 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 19:16:41 UTC] error: 
+Type: ErrorException
+Message: Using deprecated API: use $config->set('Core.Encoding', ...) instead invoked on line 327 in file /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Config.php
+Line number: 901
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Config.php 
+Line: 901 
+Function: trigger_error 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Config.php 
+Line: 303 
+Function: triggerError 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 327 
+Function: set 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 302 
+Function: render_output 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 178 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 19:18:46 UTC] error: 
+Type: ErrorException
+Message: Core.DefinitionCache is an alias, preferred directive name is Cache.DefinitionImpl invoked on line 327 in file /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Config.php
+Line number: 901
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Config.php 
+Line: 901 
+Function: trigger_error 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Config.php 
+Line: 331 
+Function: triggerError 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 327 
+Function: set 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 302 
+Function: render_output 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 178 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 19:19:09 UTC] error: 
+Type: ErrorException
+Message: Using deprecated API: use $config->set('HTML.Doctype', ...) instead invoked on line 329 in file /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Config.php
+Line number: 901
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Config.php 
+Line: 901 
+Function: trigger_error 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Config.php 
+Line: 303 
+Function: triggerError 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 329 
+Function: set 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 302 
+Function: render_output 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 178 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 19:20:03 UTC] error: 
+Type: ErrorException
+Message: Undefined variable: CHARSET
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Line number: 327
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 327 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 302 
+Function: render_output 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 178 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 19:20:07 UTC] error: 
+Type: ErrorException
+Message: Undefined variable: CHARSET
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Line number: 327
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 327 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 302 
+Function: render_output 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 178 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 19:20:26 UTC] error: 
+Type: ErrorException
+Message: Invalid encoding uft-8
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Encoder.php
+Line number: 393
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Encoder.php 
+Line: 393 
+Function: trigger_error 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/ezyang/htmlpurifier/library/HTMLPurifier.php 
+Line: 177 
+Function: convertToUTF8 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 332 
+Function: purify 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 302 
+Function: render_output 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 178 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 19:38:23 UTC] error: 
+Type: ErrorException
+Message: Undefined property: HTMLFORMATER::$in_comment
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/htmlformater.php
+Line number: 18
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/htmlformater.php 
+Line: 18 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 327 
+Function: HTML 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 302 
+Function: render_output 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 178 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 21:01:37 UTC] error: 
+Type: ErrorException
+Message: Parameter 2 to form1() expected to be a reference, value given
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 32
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 32 
+Function: call_user_func 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 19 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 21:02:15 UTC] error: 
+Type: ErrorException
+Message: Parameter 2 to form1() expected to be a reference, value given
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 32
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 32 
+Function: call_user_func 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 19 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 21:05:11 UTC] error: 
+Type: ErrorException
+Message: Parameter 2 to form1() expected to be a reference, value given
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 33
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 33 
+Function: call_user_func 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 19 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 21:05:45 UTC] error: 
+Type: ErrorException
+Message: Parameter 2 to form1() expected to be a reference, value given
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 33
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 33 
+Function: call_user_func 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 19 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 21:08:15 UTC] error: 
+Type: ErrorException
+Message: Parameter 2 to form1() expected to be a reference, value given
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 34
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 34 
+Function: call_user_func 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 19 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 21:09:06 UTC] error: 
+Type: ErrorException
+Message: syntax error, unexpected '&'
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 17
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[18-Mar-2017 21:10:41 UTC] error: 
+Type: ErrorException
+Message: Undefined variable: _form_state
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 40
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 40 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 19 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 21:10:55 UTC] error: 
+Type: ErrorException
+Message: Parameter 2 to form1() expected to be a reference, value given
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 40
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 40 
+Function: call_user_func 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 19 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 21:12:02 UTC] error: 
+Type: ErrorException
+Message: Parameter 2 to form1() expected to be a reference, value given
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 40
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 40 
+Function: call_user_func 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 19 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 21:12:45 UTC] error: 
+Type: ErrorException
+Message: Undefined variable: _form_state
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 39
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 39 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 19 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 21:17:00 UTC] error: 
+Type: ErrorException
+Message: Undefined variable: form
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 34
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 34 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 30 
+Function: build_form 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 20 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[18-Mar-2017 21:21:47 UTC] error: 
+Type: ErrorException
+Message: Illegal string offset 'form'
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php
+Line number: 33
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 33 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 36 
+Function: call_user_func_array 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 20 
+Function: build_form 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 21 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[19-Mar-2017 07:42:45 UTC] error: 
+Type: ErrorException
+Message: Parameter 1 to FormCtrl::form_create() expected to be a reference, value given
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php
+Line number: 88
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php 
+Line: 88 
+Function: call_user_func_array 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 43 
+Function: trigger 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 20 
+Function: build_form 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 43 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[19-Mar-2017 07:51:56 UTC] error: 
+Type: ErrorException
+Message: syntax error, unexpected ';'
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 43
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[19-Mar-2017 07:59:57 UTC] error: 
+Type: ErrorException
+Message: Cannot pass parameter 2 by reference
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 43
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[19-Mar-2017 08:00:31 UTC] error: 
+Type: ErrorException
+Message: Cannot pass parameter 2 by reference
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 43
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[19-Mar-2017 08:03:51 UTC] error: 
+Type: ErrorException
+Message: Parameter 1 to FormCtrl::form_create() expected to be a reference, value given
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php
+Line number: 92
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php 
+Line: 92 
+Function: call_user_func_array 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php 
+Line: 81 
+Function: _trigger 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 43 
+Function: trigger 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 20 
+Function: build_form 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 45 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[19-Mar-2017 08:04:15 UTC] error: 
+Type: ErrorException
+Message: Parameter 1 to FormCtrl::form_create() expected to be a reference, value given
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php
+Line number: 92
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php 
+Line: 92 
+Function: call_user_func_array 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php 
+Line: 81 
+Function: _trigger 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 43 
+Function: trigger 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 20 
+Function: build_form 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 45 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[19-Mar-2017 08:05:40 UTC] error: 
+Type: ErrorException
+Message: Cannot pass parameter 2 by reference
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 43
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[19-Mar-2017 08:06:04 UTC] error: 
+Type: ErrorException
+Message: Cannot pass parameter 2 by reference
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 43
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[19-Mar-2017 08:07:01 UTC] error: 
+Type: ErrorException
+Message: Parameter 1 to FormCtrl::form_create() expected to be a reference, value given
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php
+Line number: 92
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php 
+Line: 92 
+Function: call_user_func_array 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php 
+Line: 81 
+Function: _trigger 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 43 
+Function: trigger 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 20 
+Function: build_form 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 45 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[19-Mar-2017 08:07:27 UTC] error: 
+Type: ErrorException
+Message: Call-time pass-by-reference has been removed
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php
+Line number: 92
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[19-Mar-2017 08:07:27 UTC] error: 
+Type: ErrorException
+Message: Undefined property: Afrophp::$theme
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php
+Line number: 333
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 333 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/common.php 
+Line: 487 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/Prototype.php 
+Line: 78 
+Function: show_error 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 333 
+Function: __get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 79 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[19-Mar-2017 08:43:21 UTC] error: 
+Type: ErrorException
+Message: Cannot pass parameter 2 by reference
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 43
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[19-Mar-2017 08:49:31 UTC] error: 
+Type: ErrorException
+Message: Call-time pass-by-reference has been removed
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php
+Line number: 93
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[19-Mar-2017 08:49:31 UTC] error: 
+Type: ErrorException
+Message: Undefined property: Afrophp::$theme
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php
+Line number: 333
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 333 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/common.php 
+Line: 487 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/Prototype.php 
+Line: 78 
+Function: show_error 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 333 
+Function: __get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 79 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[19-Mar-2017 08:49:55 UTC] error: 
+Type: ErrorException
+Message: Call-time pass-by-reference has been removed
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php
+Line number: 92
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[19-Mar-2017 08:49:55 UTC] error: 
+Type: ErrorException
+Message: Undefined property: Afrophp::$theme
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php
+Line number: 333
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 333 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/common.php 
+Line: 487 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/Prototype.php 
+Line: 78 
+Function: show_error 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 333 
+Function: __get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 79 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[19-Mar-2017 08:50:20 UTC] error: 
+Type: ErrorException
+Message: Call-time pass-by-reference has been removed
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php
+Line number: 92
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[19-Mar-2017 08:50:20 UTC] error: 
+Type: ErrorException
+Message: Undefined property: Afrophp::$theme
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php
+Line number: 333
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 333 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/common.php 
+Line: 487 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/base/Prototype.php 
+Line: 78 
+Function: show_error 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/loader.php 
+Line: 333 
+Function: __get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 79 
+Function: view 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[19-Mar-2017 08:50:45 UTC] error: 
+Type: ErrorException
+Message: Parameter 1 to FormCtrl::form_create() expected to be a reference, value given
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php
+Line number: 92
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php 
+Line: 92 
+Function: call_user_func_array 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php 
+Line: 81 
+Function: _trigger 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 44 
+Function: trigger 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 20 
+Function: build_form 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 45 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[19-Mar-2017 08:52:01 UTC] error: 
+Type: ErrorException
+Message: Undefined index: form
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php
+Line number: 47
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 47 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 20 
+Function: build_form 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 45 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[19-Mar-2017 08:58:25 UTC] error: 
+Type: ErrorException
+Message: Use of undefined constant group1 - assumed 'group1'
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php
+Line number: 17
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 17 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php 
+Line: 92 
+Function: call_user_func_array 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/events.php 
+Line: 81 
+Function: _trigger 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 44 
+Function: trigger 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/form.php 
+Line: 20 
+Function: build_form 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php 
+Line: 47 
+Function: get 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 173 
+Function: invokeArgs 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[19-Mar-2017 12:00:39 UTC] error: 
+Type: ErrorException
+Message: Undefined index: response
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/templates_c/062576c692d833280d0303776b61ecddd380cc0e_0.file.form.html.php
+Line number: 24
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/templates_c/062576c692d833280d0303776b61ecddd380cc0e_0.file.form.html.php 
+Line: 24 
+Function: exception_error_handler 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_template_resource_base.php 
+Line: 128 
+Function: content_58cd8732363a29_54988253 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_template_compiled.php 
+Line: 172 
+Function: getRenderedTemplateCode 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_template.php 
+Line: 206 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php 
+Line: 216 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/vendor/smarty/smarty/libs/sysplugins/smarty_internal_templatebase.php 
+Line: 107 
+Function: _execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 477 
+Function: fetch 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 497 
+Function: fetch 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php 
+Line: 275 
+Function: load_file 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/router.php 
+Line: 178 
+Function: render 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/afrophp.php 
+Line: 225 
+Function: execute 
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/application.php 
+Line: 83 
+Function: run 
+File: /Users/dhtml/Sites/www/afrocms.com/sandbox/index.php 
+Line: 41 
+Function: require_once 
+
+[19-Mar-2017 12:10:08 UTC] error: 
+Type: ErrorException
+Message: Call to undefined function unbind()
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php
+Line number: 14
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[19-Mar-2017 12:10:31 UTC] error: 
+Type: ErrorException
+Message: Call to undefined function unbind()
+Filename: /Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/cms/controllers/formctrl.php
+Line number: 14
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[20-Mar-2017 00:22:27 UTC] error: 
+Type: ErrorException
+Message: Call to undefined method Theme::registerPlugin()
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Line number: 79
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[20-Mar-2017 00:23:59 UTC] error: 
+Type: ErrorException
+Message: Call to undefined method Theme::getTemplateVars()
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Line number: 273
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+
+[20-Mar-2017 00:38:58 UTC] error: 
+Type: ErrorException
+Message: Using $this when not in object context
+Filename: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/theme.php
+Line number: 974
+
+Backtrace:
+File: /Users/dhtml/Sites/www/afrophp.com/sandbox/system/core/exceptions.php 
+Line: 103 
+Function: exception_error_handler 
+

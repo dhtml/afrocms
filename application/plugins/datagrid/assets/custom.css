@@ -1,0 +1,21 @@
+body {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#tblAppendGrid {width:100%;}
+
+div.appendGrid table td.first {
+    min-width: 0px;
+    width:60px;
+}
+
+div.appendGrid table td.last {
+    min-width: 0px;
+    width:99px;
+}
+
+
+#tblAppendGrid_caption_td {
+  display: none;
+}

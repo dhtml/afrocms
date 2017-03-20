@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
-class Current_User
+class Current_User_Model
 {
   /**
   * The name of the users table
@@ -43,8 +43,8 @@ class Current_User
 
     //get the session id
     if(isset($_SESSION[$this->sess_name])) {
-      //$uid=(int) decrypt($_SESSION[$this->sess_name],$this->sess_key);
-      $this->data=(object) get_instance()->user_model->load($uid);
+      $userid=decrypt($_SESSION[$this->sess_name],$this->sess_key);
+      $this->data=(object) get_instance()->user_model->load($userid);
     } else {
       $this->data=new stdClass();
     }

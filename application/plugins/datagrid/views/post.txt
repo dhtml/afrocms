@@ -1,0 +1,10 @@
+a:10:{s:8:"langfile";s:93:"/Users/dhtml/Sites/www/afrocms.com/sandbox/application/plugins/datagrid/languages/en/user.xml";s:19:"tblAppendGrid_Key_1";s:7:"back_to";s:30:"tblAppendGrid_AdtDescription_1";s:7:"Back to";s:19:"tblAppendGrid_Key_2";s:5:"login";s:30:"tblAppendGrid_AdtDescription_2";s:6:"Log In";s:19:"tblAppendGrid_Key_3";s:8:"register";s:30:"tblAppendGrid_AdtDescription_3";s:8:"Register";s:19:"tblAppendGrid_Key_4";s:14:"my-markup-test";s:30:"tblAppendGrid_AdtDescription_4";s:1027:"DISARMAMENT PROCESS YIELDS MORE RESULTS In ZAMFARA STATE
+
+The disarmament of armed bandits, cattle rustlers and vigilante process spearheaded by Zamfara State and 1 Division Nigerian Army has been yielding the desired result as more persons have been surrendering themselves, arms and ammunition. This assertion followed the surrender of more arms at Gusau, Maru and Anka Local Government Areas of the State yesterday. 
+
+Thus the number of the recovered arms within this week is as follows; 3AK-47 Rifles, 2 G3 Rifles, 1 Small Machine Gun, 3 Pump Action Guns, 1 Teargas Launcher, 3 Teargas Canisters, 690 Locally Made Dane Guns, 192 Locally Made Pistols, 8 Locally made Pump Action Guns, 17 Locally Made Revolvers, 60 Locally MadeMulti-barrel Pistols and 13 Locally Made Double-barrel Rifles. 
+
+The State Government and the military have been working assiduously with all the relevant stakeholders to ensure the sustenance of the peace process.
+
+Kindly disseminate this information to the public through your medium. 
+";s:22:"tblAppendGrid_rowOrder";s:7:"1,2,3,4";}

@@ -33,7 +33,7 @@ function theme_side_navigation_func($params, $smarty) {
 
   $menus=array_multisort_field($menus,'priority');
 
-  $response="<ul class=\"nav side-menu\">;\n";
+  $response="<ul class=\"nav side-menu\">&nbsp;\n";
 
   foreach($menus as $menu)
   {

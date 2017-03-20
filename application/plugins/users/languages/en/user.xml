@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<resources>
+  <key name="back_to">
+     <value>Back to</value>
+  </key>
+  <key name="login">
+     <value>Log In</value>
+  </key>
+  <key name="register">
+     <value>Register</value>
+  </key>
+</resources>

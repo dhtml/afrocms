@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <key name="back_to">
+    <value>Back to</value>
+  </key>
+  <key name="login">
+    <value>Log In</value>
+  </key>
+  <key name="register">
+    <value>Register</value>
+  </key>
+  <key name="forgot">
+    <value>Forgot password?</value>
+  </key>
+  <key name="recover">
+    <value>Recover your account</value>
+  </key>
+</resources>

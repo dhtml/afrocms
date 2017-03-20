@@ -26,8 +26,8 @@
   //cache configuration
   'cache'=>[
     'time' => 0,
-    'script' => '2',
-    'style' => '1',
+    'script' => time(),
+    'style' => time(),
   ],
 
   //cookie configuration
