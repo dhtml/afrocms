@@ -37,5 +37,7 @@
  */
 $application_folder = 'application';
 
-
-require_once 'system/core/application.php';
+/**
+* Start the application
+*/
+require_once __DIR__.'/system/core/afrophp.php';
