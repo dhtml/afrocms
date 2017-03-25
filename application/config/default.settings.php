@@ -1,5 +1,5 @@
 <?php return array (
-  'site_name' => 'AFROPHP CMS',
+  'site_name' => 'AFROPHP Framework',
 	'language' => 'en',
 	'charset' => 'UTF-8',
 	'log_threshold' => '2',
@@ -18,56 +18,56 @@
   'admin_path' => 'admin',
 
   //theme configuration
-  'theme'=>[
+  'theme'=>array(
     'front' => 'default',
     'back' => 'gentele',
-  ],
+  ),
 
   //cache configuration
-  'cache'=>[
+  'cache'=>array(
     'time' => 0,
     'script' => time(),
-    'style' => time(),
-  ],
+    'style' => '1',
+  ),
 
   //cookie configuration
-  'cookie'=>[
+  'cookie'=>array(
     'prefix' => '',
   	'domain' => '',
   	'path' => '/',
   	'secure' => false,
   	'httponly' => false,
-  ],
+  ),
 
   //exception configuration
-  'exception'=>[
+  'exception'=>array(
     'sender_name' => 'AFROPHP',
     'sender_email' => 'exception@afrophp.com',
     'subject' => 'Error Type: {level}',
-    'recipients' => ['diltony@yahoo.com','diltony@gmail.com'],
+    'recipients' => array('diltony@yahoo.com','diltony@gmail.com'),
     'mailer_enabled' => false,
     'enable_stack_trace' => true,
     'show_error' => true,
-  ],
+  ),
 
   //database configuration
-  'dbase'=>[
+  'dbase'=>array(
     'dsn'=>'',
     'driver' => 'mysql',
     'hostname' => 'localhost',
     'username' => 'admin',
     'password' => 'pass',
-    'database' => 'afro',
+    'database' => 'afrophp',
     'port' => '',
     'char_set' => 'utf8',
     'collat' => 'utf8_general_ci',
     'prefix' => 'afro_',
     'schema'=>'public',
     'persistent'=>false,
-  ],
+  ),
 
   //session configuration
-  'session'=>[
+  'session'=>array(
     'handler' => 'dbase',
   	'match_ip' => false,
   	'match_fingerprint' => false,
@@ -80,10 +80,10 @@
   	'cookie_regenerate' => 300,
   	'expiration' => 7200,
   	'gc_probability' => 100,
-  ],
+  ),
 
   //email settings
-  'email'=>[
+  'email'=>array(
     'smtp_host' => 'smtp.gmail.com',
   	'smtp_username' => 'diltony@gmail.com',
   	'smtp_password' => 'xxx',
@@ -91,17 +91,6 @@
   	'smtp_secure' => 'ssl',
   	'smtp_enabled' => 0,
   	'send_enabled' => 1,
-  ],
-
-  //security settings
-  'security'=>[
-    'user_sess_key' => '121',
-    'user_sess_name' => 'uid',
-    'password_func'=>'sha1',
-  ],
-
-  //cms settings
-  'cms'=>[
-  ],
+  ),
 
 );

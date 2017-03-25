@@ -4,6 +4,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 //load session
 $this->load->library(BASEPATH."libraries/session.php");
 
+//add base style
+addStyle("css/base.css",null,'assets');
+
 
 $this->load->models(
   array(
@@ -54,7 +57,7 @@ bind('menu', function () {
     menu::get('cms_home')
       ->setTitle('Home')
       ->setID('20')
-      ->setIcons(['fa fa-home', 'fa fa-chevron-down'])
+      ->setIcons(array('fa fa-home', 'fa fa-chevron-down'))
       ->setPriority(0);
 
       //stdout(menu::get('cms_home')->getID());
@@ -86,7 +89,7 @@ bind('menu', function () {
     menu::get('cms_forms')
                   ->setPriority(1)
                   ->setTitle('Forms')
-                  ->setIcons(['fa fa-edit', 'fa fa-chevron-down'])
+                  ->setIcons(array('fa fa-edit', 'fa fa-chevron-down'))
                   ->setUri('admin/forms');
 
     menu::get('cms_forms_general')
@@ -113,7 +116,7 @@ bind('menu', function () {
     menu::get('cms_ui')
                         ->setPriority(3)
                         ->setTitle('UI Elements')
-                        ->setIcons(['fa fa-desktop', 'fa fa-chevron-down'])
+                        ->setIcons(array('fa fa-desktop', 'fa fa-chevron-down'))
                         ->setUri('admin/ui');
 
     menu::get('cms_ui_general')
@@ -155,6 +158,12 @@ $this->router->addRoute(new Route(array(
       'method'=>'pages'
     )));
 
+    $this->router->addRoute(new Route(array(
+          'view'=>'form',
+          'uri'=>'form/test',
+          'controller'=>'FormCtrl',
+          'method'=>'test'
+        )));
 
 
     $this->router->addRoute(new Route(array(
@@ -163,3 +172,26 @@ $this->router->addRoute(new Route(array(
           'controller'=>'FormCtrl',
           'method'=>'index'
         )));
+
+        $this->router->addRoute(new Route(array(
+              'view'=>'form',
+              'uri'=>'form1',
+              'controller'=>'FormCtrl',
+              'method'=>'form1'
+            )));
+
+
+            $this->router->addRoute(new Route(array(
+                  'view'=>'form',
+                  'uri'=>'form2',
+                  'controller'=>'FormCtrl',
+                  'method'=>'form2'
+                )));
+
+
+        $this->router->addRoute(new Route(array(
+              'view'=>'form',
+              'uri'=>'form/result',
+              'controller'=>'FormCtrl',
+              'method'=>'result'
+            )));

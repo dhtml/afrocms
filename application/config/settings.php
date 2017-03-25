@@ -7,7 +7,7 @@
     'hostname' => 'localhost',
     'port' => '',
     'prefix' => 'afro_',
-    'site_name' => 'AFROPHP CMS',
+    'site_name' => 'AFROPHP Framework',
     'admin_username' => 'dhtml',
     'admin_email' => 'diltony@yahoo.com',
     'admin_password' => 'lagos',

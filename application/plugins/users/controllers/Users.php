@@ -12,7 +12,7 @@ class Users extends Controller {
       addStyle("bootstrap/css/bootstrap.min.css",null,'asset');
       addStyle("plugins/users/css/login.css",null,'asset');
 
-      addScript("js/jquery-1.10.2.min.js",null,'asset');
+      addScript("js/jquery/jquery.min.js",null,'asset');
       addScript("bootstrap/js/bootstrap.min.js",null,'asset');
       addScript("plugins/users/js/login.js",null,'asset');
 
