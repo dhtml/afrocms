@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<resources>
+  <key name="form_invalid_token">
+    <value>Your form has expired, please re-submit</value>
+  </key>
+</resources>
