@@ -2,6 +2,11 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 class Users extends Controller {
+    public function __construct()
+    {
+      $this->forms=load_class(__DIR__."/../classes/auth.forms.php");
+    }
+
     public function index()
     {
 
@@ -16,8 +21,11 @@ class Users extends Controller {
       addScript("bootstrap/js/bootstrap.min.js",null,'asset');
       addScript("plugins/users/js/login.js",null,'asset');
 
-      //<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-      //<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+
+      $this->assign('login_form',$this->form->get('login_form',null,$this->forms));
+      $this->assign('register_form',$this->form->get('register_form',null,$this->forms));
+      $this->assign('password_form',$this->form->get('password_form',null,$this->forms));
 
       //echo "Login";
       //die();
